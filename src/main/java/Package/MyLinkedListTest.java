@@ -3,12 +3,12 @@ package Package;
 public class MyLinkedListTest {
     public static void main(String[] args) {
         System.out.println("--_TEst_--");
-        MyLinkedList ll = new MyLinkedList();
-        ll.addFirst(11);
-        ll.addLast(12);
-        ll.addLast(13);
-        ll.add(2, 10);
-        ll.printList();
+        MyLinkedList myLinkedList = new MyLinkedList();
+        myLinkedList.addFirst(11);
+        myLinkedList.addLast(12);
+        myLinkedList.addLast(13);
+        myLinkedList.add(2, 10);
+        myLinkedList.printList();
 
 
     }
